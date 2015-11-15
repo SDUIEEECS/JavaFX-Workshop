@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ders02.FXMLDocumentController">
+   <children>
+      <Button fx:id="tikla" layoutX="49.0" layoutY="46.0" mnemonicParsing="false" onAction="#tiklandi" text="tıkla" />
+      <Label fx:id="label" layoutX="169.0" layoutY="51.0" text="Label" />
+   </children>
+</AnchorPane>
